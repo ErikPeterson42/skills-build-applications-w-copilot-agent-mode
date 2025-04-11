@@ -52,4 +52,4 @@ class Command(BaseCommand):
         Workout.objects.create(name='Evening Stretch', description='A calming stretch routine to end your day.')
         Workout.objects.create(name='Strength Training', description='Build muscle with this strength-focused workout.')
 
-        self.stdout.write(self.style.SUCCESS('Successfully populated the database with test data'))
+        self.stdout.write(self.style.SUCCESS('Successfully populated the database with test data for'))
